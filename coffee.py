@@ -1,3 +1,4 @@
+"""stores ascii art"""
 logo = """
          {
       {   }
@@ -14,6 +15,7 @@ logo = """
    \             y'
     `-.._____..-'
 """
+"""stores the menu data"""
 MENU = {
     "espresso": {
         "ingredients": {
@@ -39,9 +41,9 @@ MENU = {
         "cost": 3.0
     }
 }
-
+"""initial profit is set to 0"""
 profit = 0
-
+"""stores the initial resources"""
 resources = {
     "water": 300,
     "milk": 200,
